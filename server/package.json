@@ -6,8 +6,8 @@
     "build": "tsc",
     "start": "node dist/index.js",
     "prisma:generate": "prisma generate",
-    "prisma:migrate": "prisma migrate dev --name init",
-    "setup": "npm install && ./node_modules/.bin/prisma generate && ./node_modules/.bin/prisma db push"
+    "prisma:push": "prisma db push",
+    "setup": "npm install && npm run prisma:generate && npm run prisma:push"
   },
   "dependencies": {
     "@prisma/client": "^5.22.0",
