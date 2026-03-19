@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom react-grid-layout handles */
+.react-grid-item > .react-resizable-handle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+}
+
+.react-grid-item > .react-resizable-handle::after {
+  content: "";
+  position: absolute;
+  right: 3px;
+  bottom: 3px;
+  width: 6px;
+  height: 6px;
+  border-right: 2px solid rgba(255, 255, 255, 0.3);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.react-grid-item > .react-resizable-handle.react-resizable-handle-se {
+  bottom: 0;
+  right: 0;
+  cursor: nwse-resize;
+}
+
+.react-grid-placeholder {
+  background: rgba(45, 164, 114, 0.2) !important;
+  border: 2px dashed rgba(45, 164, 114, 0.5) !important;
+  border-radius: 12px !important;
+  opacity: 1 !important;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(99, 102, 241, 0.3);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(99, 102, 241, 0.5);
+}
+
+/* Glassmorphism utility */
+.glass {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+body, html {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background: #0f1019;
+  color: #e5e7eb;
+  min-height: 100vh;
+  overflow-x: hidden;
+  font-size: clamp(0.9rem, 2vw, 1rem);
+  word-wrap: break-word;
+}
+
+#root {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+/* Droppable area highlight */
+.droppable-area {
+  transition: all 0.2s ease;
+}
+
+.droppable-area.drag-over {
+  background-color: rgba(45, 164, 114, 0.05);
+  border-color: rgba(45, 164, 114, 0.4);
+}
+
+/* Snapshot Mode */
+.snapshot-mode .react-grid-item > div {
+  background: transparent !important;
+  border-color: transparent !important;
+  box-shadow: none !important;
+}
