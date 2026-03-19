@@ -11,7 +11,7 @@ npx ts-node src/index.ts
 
 # ------------------------------
 # Terminal 2 — Frontend
-# ------------------------------
+# -------------------------------
 
 cd client
 npm install
