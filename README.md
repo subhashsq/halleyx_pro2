@@ -16,3 +16,9 @@ npx ts-node src/index.ts
 cd client  , 
 npm install  ,
 npm run dev  
+
+# ------------------------------
+# DEPLOYMENT LINK
+# -------------------------------
+
+https://halleyx-pro2.vercel.app
