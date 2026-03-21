@@ -15,4 +15,4 @@ npx ts-node src/index.ts
 
 cd client  , 
 npm install  ,
-npm run dev  ,
+npm run dev  
