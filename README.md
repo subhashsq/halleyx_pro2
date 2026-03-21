@@ -3,6 +3,9 @@
 https://halleyx-pro2.vercel.app
 
 
+> Note: The initial setup may take approximately 50 seconds to complete.
+
+
 ### Deployment & Infrastructure
 
 - **Frontend Hosting:** Vercel  
