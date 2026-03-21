@@ -1,6 +1,13 @@
-### Deployment Link [ SUBHASH S ]
+### Deployment Link    [ SUBHASH S ]
 
 https://halleyx-pro2.vercel.app
+
+
+### Deployment & Infrastructure
+
+- **Frontend Hosting:** Vercel  
+- **Backend Hosting:** Render  
+- **Database:** Neon  
 
 
 ### Backend Setup
