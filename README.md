@@ -1,19 +1,21 @@
-# ------------------------------
-# Terminal 1 — Backend
-# ------------------------------
+### Backend Setup
 
-cd server , npm install , npx prisma generate , npx prisma migrate dev --pro2 init , npx ts-node src/index.ts
+```bash
+cd server
+npm install
+npx prisma generate
+npx prisma migrate dev --pro2 init
+npx ts-node src/index.ts
+```
 
-# ------------------------------
-# Terminal 2 — Frontend
-# -------------------------------
+### Frontend Setup
 
-cd client  , 
-npm install  ,
-npm run dev  
+```bash
+cd client
+npm install
+npm run dev
+```
 
-# ------------------------------
-# DEPLOYMENT LINK
-# -------------------------------
+### Deployment Link
 
 https://halleyx-pro2.vercel.app
